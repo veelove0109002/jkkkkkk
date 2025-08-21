@@ -278,7 +278,7 @@ class ServerModel with ChangeNotifier {
       _allowNumericOneTimePassword = numericOneTimePassword;
       update = true;
     }
-    /*
+   
     if (_hideCm != hideCm) {
       _hideCm = hideCm;
       if (desktopType == DesktopType.cm) {
@@ -290,7 +290,7 @@ class ServerModel with ChangeNotifier {
       }
       update = true;
     }
-    */
+   
     if (update) {
       notifyListeners();
     }
